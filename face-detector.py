@@ -1,10 +1,10 @@
-import cv2
+import cv2 #install open cv lib, cpmman is: pip install opencv-python | pip install opencv-python-headless
 from random import randrange
 
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # choose an image to detect face in
-#img = cv2.imread('assets/images/IMG_0388.jpg')
+# img = cv2.imread('assets/images/IMG_0388.jpg')
 img = cv2.imread('assets/images/group.jpg')
 
 # must convert to grayscale
